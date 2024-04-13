@@ -5,7 +5,7 @@
     // call post api request function
     //await post_visitor();
   try {	
-    let response = await fetch('https://xexf61xhm7.execute-api.eu-north-1.amazonaws.com/Prod/visitor_count', {
+    let response = await fetch('https://XXXXXXXXXX.execute-api.eu-north-1.amazonaws.com/Prod/visitor_count', {
       method: 'GET',
       headers: {
             //'x-api-key': 'JslbDfdt1F8fl7wE4CRIj1Oqidmtmzqw4lZ539Sj',
