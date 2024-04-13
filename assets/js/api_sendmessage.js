@@ -1,7 +1,7 @@
 (() => {
   const form = document.querySelector('form');
   const submitResponse = document.querySelector('#response');
-  const formURL = 'https://2fkwmwoxg2.execute-api.eu-north-1.amazonaws.com/Prod/submitForm';
+  const formURL = 'https://XXXXXXXXXX.execute-api.eu-north-1.amazonaws.com/Prod/submitForm';
 
   form.onsubmit = e => {
     e.preventDefault();
