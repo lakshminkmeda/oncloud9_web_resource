@@ -4,7 +4,7 @@
   async function get_visitors() {
     // call post api request function
     //await post_visitor();
-  try {	
+  try {	                      // change the XXXX to the actual address of the API Gateway
     let response = await fetch('https://XXXXXXXXXX.execute-api.eu-north-1.amazonaws.com/Prod/visitor_count', {
       method: 'GET',
       headers: {
